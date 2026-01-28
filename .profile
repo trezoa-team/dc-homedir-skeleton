@@ -26,8 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-SOLANA_BIN="/home/solana/.local/share/solana/install/active_release/bin"
-[ -d "${SOLANA_BIN}" ] && export PATH="${SOLANA_BIN}:${PATH}"
+TREZOA_BIN="/home/trezoa/.local/share/solana/install/active_release/bin"
+[ -d "${TREZOA_BIN}" ] && export PATH="${TREZOA_BIN}:${PATH}"
 
-CARGO_BIN="/home/solana/.cargo/bin"
+CARGO_BIN="/home/trezoa/.cargo/bin"
 [ -d "${CARGO_BIN}" ] && export PATH="${PATH}:${CARGO_BIN}"
